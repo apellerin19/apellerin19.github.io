@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <title>alexis's amazing website</title>
+    </head>
+    <style>
+    body {
+        background: aqua;
+        color: black;
+        padding: 10px;
+        font-family: arial;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: purple;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        padding: 10px;
+    }
+    h1 {
+        display: flex;
+        align-items: center;
+        color: white;
+        flex: 1;
+        margin: 0;
+    }
+    #nav-ul {
+        list-style-image: none;
+    }
+    .nav-li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: whitesmoke;
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar-img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    #interests {
+        border: 4px purple ridge;
+        padding: 8px;
+    }
+    h2, h3 {
+        margin: 0px;
+    }
+</style>
+    
+    <body>
+        <div id="all-contents"> 
+            <nav>
+                <h1>alexis's blog</h1> 
+                    <ul id="nav-ul"> 
+                    <li class="nav-li"> 
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <main>
+                <!-- Sidebar Section -->
+                <div class="sidebar">
+                    <img class="sidebar-img" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRarUbxErvg4Az_QDbbLxbUjOF_h31T8UXYrABqPM5cmN4LKKI:https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2019/02/dog-451643.jpg%3Fh%3Dbf654dbc%26itok%3DMQGvBmuo&usqp=CAU>
+                </div>
+
+                <!-- Content section -->
+                <div class="content">
+                    <h2> Alexis </h2>
+                    <p> "Student at CHS" </p>
+                    <!--Interest section-->
+                    <div id="interests">
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>Dancing</li>
+                            <li>Singing</li>
+                            <li>Crying</li>
+                        </ul>
+                     </div> 
+                </div>    
+            </main>
+        </div>
+    </body>
+</html>

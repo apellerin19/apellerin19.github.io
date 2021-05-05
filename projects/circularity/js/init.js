@@ -73,7 +73,7 @@ function drawCircle() {
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             if (circle.x < 0) {
-                ciecle.x = canvas.width
+                circle.x = canvas.width
             }
             if (circle.y < 0) {
                 circle.y = canvas.height
